@@ -46,8 +46,6 @@ class Joint:
     def T(self, th):
         return T(self.R(th), self.t)
 
-
-
 chain = [
     Joint(Ry, (-119.5, 119.5), (0.00, 0.00, 0.00)), # LShoulderPitch
     Joint(Rz, (- 18.0,  76.0), (0.00, 0.03, 0.00)), # LShoulderRoll
